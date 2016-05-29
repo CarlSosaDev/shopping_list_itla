@@ -1,15 +1,12 @@
 /*
  * Element.cpp
  *
- *  Created on: May 22, 2016
+ *  Created on: May 23, 2016
  *      Author: raydelto
  */
 
 #include "Element.h"
-#include <cstdlib>
-using namespace std;
 
-Element::Element(string name): _next(NULL), _name(name)
+Element::Element(std::string name):_name(name), _next(NULL)
 {
-
 }

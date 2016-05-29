@@ -1,7 +1,7 @@
 /*
  * Element.h
  *
- *  Created on: May 22, 2016
+ *  Created on: May 23, 2016
  *      Author: raydelto
  */
 
@@ -10,14 +10,14 @@
 #include <string>
 class Element
 {
+	private:
+		std::string _name;
+		Element* _next;
+
 	public:
 		Element(std::string name);
-
-	private:
-		Element* _next;
-		std::string _name;
-		//This means that List can access to all private members of this class
-		friend class List;
+	//This means that Stack can access directly to Element's private members
+	friend class Stack;
 };
 
 #endif /* ELEMENT_H_ */
