@@ -7,3 +7,5 @@ The objective of this assignment is to test student's ability to create their ow
 Eclipse Mars 2 for C++ (MAC) was used for creating the project (eclipse project file have been included). But the code should compile with any IDE regardless of the operating system. Our code takes care of multiplatform specific details.
 
 Should you have any question about this code please feel free to contact rperera@itla.edu.do
+
+##Proposed Solution: Carlos Raul Sosa Alcantara
